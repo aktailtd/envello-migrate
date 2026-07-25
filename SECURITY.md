@@ -2,20 +2,21 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+`@envello/migrate` is pre-1.0 and still in active early development. Only the latest published version on npm receives security fixes.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 0.1.x   | ✅        |
+| < 0.1   | ❌        |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Please **do not open a public GitHub issue** for security vulnerabilities. Instead, email **hello@aktai.app** with:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- A description of the vulnerability and its potential impact
+- Steps to reproduce, or a proof-of-concept if you have one
+- The affected version(s)
+
+We'll acknowledge your report within 3 business days and aim to provide a fix or mitigation timeline within 14 days for confirmed issues. We'll credit you in the release notes unless you'd prefer to stay anonymous.
+
+This is a codemod CLI that rewrites source files on disk. If you find a case where it produces incorrect or unsafe output (not just a missed rewrite), please report it the same way as above.
