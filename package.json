@@ -1,6 +1,6 @@
 {
   "name": "@envello/migrate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Codemod that rewrites Resend SDK usage to the Envello SDK (import statements and client instantiation; method calls like .emails.send()/.emails.batch() are left as-is since Envello's SDK mirrors Resend's shapes).",
   "license": "MIT",
   "type": "module",
